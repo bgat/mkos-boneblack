@@ -17,4 +17,4 @@ packages={{device-package}}
 
 [debian]
 source=http://ftp.us.debian.org/debian
-suite=wheezy
+suite=jessie
