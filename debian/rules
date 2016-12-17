@@ -11,3 +11,9 @@ export DH_VERBOSE=1
 
 %:
 	dh $@ 
+
+override_dh_auto_install:
+	for device in boneblack boneblackwireless; do \
+		install -m 644 -D default-$${device}.mstrap debian/mkos-$${device}/usr/share/mkos-$${device}/default.mstrap ;\
+		install -m 755 -D mkos-$${device} debian/mkos-$${device}/usr/bin/mkos-$${device} ;\
+		done

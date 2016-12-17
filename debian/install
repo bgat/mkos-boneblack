@@ -1,4 +1,0 @@
-mkos-boneblack usr/bin
-default-boneblack.mstrap preferences usr/share/mkos-boneblack/default.mstrap
-mkos-boneblackwireless usr/bin
-default-boneblackwireless.mstrap preferences usr/share/mkos-boneblackwireless/default.mstrap
