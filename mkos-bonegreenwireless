@@ -1,8 +1,8 @@
 #!/bin/sh
 set -e -u
 
-DEFAULT_CONFIG=/usr/share/mkos-boneblackwireless/default.mstrap
-DEFAULT_DEVICE=device-boneblackwireless
+DEFAULT_CONFIG=/usr/share/mkos-bonegreenwireless/default.mstrap
+DEFAULT_DEVICE=device-bonegreenwireless
 DEFAULT_IMAGE=ptux.img
 DEFAULT_ROOTFSTYPE=ext3
 

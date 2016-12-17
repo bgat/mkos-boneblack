@@ -18,3 +18,15 @@ Architecture: all
 Depends: mkos-mlo-common, ${misc:Depends}
 Description: Composes filesystem images for Beaglebone Black Wireless
  Composes a filesystem image for the Beaglebone Black Wireless target.
+
+Package: mkos-bonegreen
+Architecture: all
+Depends: mkos-mlo-common, ${misc:Depends}
+Description: Composes filesystem images for Beaglebone Green
+ Composes a filesystem image for the Beaglebone Green target.
+
+Package: mkos-bonegreenwireless
+Architecture: all
+Depends: mkos-mlo-common, ${misc:Depends}
+Description: Composes filesystem images for Beaglebone Green Wireless
+ Composes a filesystem image for the Beaglebone Green Wireless target.
