@@ -11,10 +11,10 @@ aptpreferences=/usr/share/mkos-boneblack/preferences
 
 [ptux]
 source=http://packages.pragmatux.org/device
-suite=4.0
+suite=5.0
 components=main
 packages={{device-package}}
 
 [debian]
 source=http://ftp.us.debian.org/debian
-suite=jessie
+suite=stretch

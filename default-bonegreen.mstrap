@@ -11,7 +11,7 @@ aptpreferences=/usr/share/mkos-bonegreen/preferences
 
 [ptux]
 source=http://packages.pragmatux.org/device
-suite=4.0
+suite=5.0
 components=main
 packages={{device-package}}
 
