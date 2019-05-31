@@ -4,6 +4,6 @@ set -e -u
 DEFAULT_CONFIG=/usr/share/mkos-boneblack/default.mstrap
 DEFAULT_DEVICE=device-boneblack
 DEFAULT_IMAGE=ptux.img
-DEFAULT_ROOTFSTYPE=ext3
+DEFAULT_ROOTFSTYPE=ext4
 
 mkos-mlo-common -c $DEFAULT_CONFIG -p $DEFAULT_DEVICE -f $DEFAULT_ROOTFSTYPE -n $DEFAULT_IMAGE $@
