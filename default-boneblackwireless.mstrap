@@ -11,10 +11,10 @@ aptpreferences=/usr/share/mkos-boneblackwireless/preferences
 
 [ptux]
 source=http://packages.pragmatux.org/device
-suite=stretch
+suite=buster
 components=main
 packages={{device-package}}
 
 [debian]
 source=http://ftp.us.debian.org/debian
-suite=stretch
+suite=buster
