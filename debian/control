@@ -1,9 +1,9 @@
 Source: mkos-boneblack
 Section: devel
-Priority: extra
+Priority: optional
 Maintainer: Bill Gatliff <bgat@billgatliff.com>
-Build-Depends: debhelper (>= 7.0.50~)
-Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 10.0.0)
+Standards-Version: 4.3.0
 Vcs-Git: https://github.com/bgat/mkos-boneblack.git
 Vcs-Browser: https://github.com/bgat/mkos-boneblack.git
 
